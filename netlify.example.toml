@@ -1,0 +1,25 @@
+[build]
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+publish = "public"
+
+[build.environment]
+# Text in landing page button
+LANDING_BUTTON = "Explore"
+# Site description on landing page
+LANDING_DESCRIPTION = "I have nothing but intelligence."
+# The Markdown page linked to landing page button (e.g. put home for ./home.md)
+LANDING_PAGE = "home"
+# Site title on landing page
+LANDING_TITLE = "My Second Brain"
+PYTHON_VERSION = "3.8"
+# Site repo URL
+REPO_URL = "https://github.com/ppeetteerrs/obsidian-zola"
+# Site title in navbar
+SITE_TITLE = "Example Site"
+# Site URL
+SITE_URL = ""
+# Site Timezone
+TIMEZONE = "Asia/Hong_Kong"
+ZOLA_VERSION = "0.15.3"
+# How to sort notes on the right sidebar ("date" or "title"), defaults to "title" if missing or invalid
+SORT_BY = "title"

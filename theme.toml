@@ -1,0 +1,16 @@
+name = "zolidian"
+description = "A minimal theme adapted from Obsidian-Zola, built to turn Obsidian PKM in a simple zola site."
+license = "MIT"
+homepage = "https://github.com/aadimator/zolidian"
+min_version = "0.0.1"
+demo = "https://peteryuen.netlify.app/"
+
+[extra]
+
+[author]
+name = "Aadam"
+homepage = "https://github.com/aadimator/zolidian"
+
+[original]
+author =  "Peter Yuen"
+homepage = "https://github.com/ppeetteerrs/zola-pkm"
