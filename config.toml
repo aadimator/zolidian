@@ -11,7 +11,8 @@ taxonomies = []
 ignored_content = ["*.{excalidraw.md}"]
 
 [slugify]
-paths = "off"
+paths = "on"
+anchors = "on"
 
 [search]
 include_content = true
