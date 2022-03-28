@@ -251,7 +251,7 @@ def step4():
         content = fix_katex_issues(md_file, content)
         content = write_frontmatters(md_file, content)
 
-        if str(md_file).endswith("📇 Index.md"):
+        if str(md_file).endswith("Index.md"):
             p = Path(md_file)
             renamed_file = Path(p.parent, f"_index{p.suffix}")
             p.rename(renamed_file)
